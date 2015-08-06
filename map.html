@@ -3,7 +3,10 @@
 <title> a sad attempt at d3 mpas</title>
 <style>
 
-
+var fill = d3.time.scale()
+    .domain([7.5, 8.75])
+    .range(["brown", "steelblue"]);
+    
 .land {
   fill: #222;
 }
@@ -19,6 +22,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
 <script>
+//https://github.com/mbostock/d3/wiki/Time-Intervals#hour
 // borrowed from here http://bl.ocks.org/mbostock/4090848
 var width = 960,
     height = 500;
