@@ -3,10 +3,6 @@
 <title> a sad attempt at d3 mpas</title>
 <style>
 
-var fill = d3.time.scale()
-    .domain([7.5, 8.75])
-    .range(["brown", "steelblue"]);
-    
 .land {
   fill: #222;
 }
@@ -26,6 +22,25 @@ var fill = d3.time.scale()
 // borrowed from here http://bl.ocks.org/mbostock/4090848
 var width = 960,
     height = 500;
+
+var data = []
+d3.csv("https://raw.githubusercontent.com/mjmaenner/d3learn/gh-pages/states.csv", function(datas) {
+   data = datas.map(function(d) { return [ d["state"], d["start_time"], +d["time_numeric"]; });
+ });
+
+
+  var color_domain = [7.25,7.5,.7.75,8,8.25,8.5,8.75]
+  var ext_color_domain = [7, 7.25,7.5,.7.75,8,8.25,8.5,8.75]
+  var legend_labels = ["7:15", "7:30", "7:45", "8:00", "8:15", "8:30", "8:45"]              
+  var color = d3.scale.threshold()
+  .domain(color_domain)
+  .range(["#dcdcdc", "#d0d6cd", "#bdc9be", "#aabdaf", "#97b0a0", "#84a491", "719782", "#5e8b73"]);
+
+
+
+//var filltime = d3.time.scale()
+//    .domain([7.5, 8.75])
+//    .range(["brown", "steelblue"]);
 
 var projection = d3.geo.albersUsa()
     .scale(1000)
