@@ -1,52 +1,52 @@
-"state","start_time"
-"Alabama","7:49"
-"Alaska","8:33"
-"Arizona","8:03"
-"Arkansas","8:01"
-"California","8:07"
-"Colorado","7:54"
-"Connecticut","7:46"
-"Delaware","7:42"
-"District of Columbia",""
-"Florida","8:17"
-"Georgia","8:09"
-"Hawaii","8:03"
-"Idaho","8:13"
-"Illinois","8:13"
-"Indiana","7:58"
-"Iowa","8:23"
-"Kansas","8:00"
-"Kentucky","8:03"
-"Louisiana","7:40"
-"Maine","7:53"
-"Maryland",""
-"Massachusetts","7:53"
-"Michigan","7:54"
-"Minnesota","8:18"
-"Mississippi","7:47"
-"Missouri","7:54"
-"Montana","8:13"
-"Nebraska","8:07"
-"Nevada","7:51"
-"New Hampshire","7:46"
-"New Jersey","8:00"
-"New Mexico","8:10"
-"New York","7:59"
-"North Carolina","8:03"
-"North Dakota","8:31"
-"Ohio","7:52"
-"Oklahoma","8:10"
-"Oregon","8:14"
-"Pennsylvania","7:48"
-"Rhode Island","7:50"
-"South Carolina","8:03"
-"South Dakota","8:13"
-"Tennessee","7:57"
-"Texas","8:05"
-"Utah","8:05"
-"Vermont","8:05"
-"Virginia","8:04"
-"Washington","8:08"
-"West Virginia","7:54"
-"Wisconsin","7:59"
-"Wyoming","7:59"
+"state","start_time","time_numeric"
+"Alabama","7:49",7.81666666666667
+"Alaska","8:33",8.55
+"Arizona","8:03",8.05
+"Arkansas","8:01",8.01666666666667
+"California","8:07",8.11666666666667
+"Colorado","7:54",7.9
+"Connecticut","7:46",7.76666666666667
+"Delaware","7:42",7.7
+"District of Columbia","",NA
+"Florida","8:17",8.28333333333333
+"Georgia","8:09",8.15
+"Hawaii","8:03",8.05
+"Idaho","8:13",8.21666666666667
+"Illinois","8:13",8.21666666666667
+"Indiana","7:58",7.96666666666667
+"Iowa","8:23",8.38333333333333
+"Kansas","8:00",8
+"Kentucky","8:03",8.05
+"Louisiana","7:40",7.66666666666667
+"Maine","7:53",7.88333333333333
+"Maryland","",NA
+"Massachusetts","7:53",7.88333333333333
+"Michigan","7:54",7.9
+"Minnesota","8:18",8.3
+"Mississippi","7:47",7.78333333333333
+"Missouri","7:54",7.9
+"Montana","8:13",8.21666666666667
+"Nebraska","8:07",8.11666666666667
+"Nevada","7:51",7.85
+"New Hampshire","7:46",7.76666666666667
+"New Jersey","8:00",8
+"New Mexico","8:10",8.16666666666667
+"New York","7:59",7.98333333333333
+"North Carolina","8:03",8.05
+"North Dakota","8:31",8.51666666666667
+"Ohio","7:52",7.86666666666667
+"Oklahoma","8:10",8.16666666666667
+"Oregon","8:14",8.23333333333333
+"Pennsylvania","7:48",7.8
+"Rhode Island","7:50",7.83333333333333
+"South Carolina","8:03",8.05
+"South Dakota","8:13",8.21666666666667
+"Tennessee","7:57",7.95
+"Texas","8:05",8.08333333333333
+"Utah","8:05",8.08333333333333
+"Vermont","8:05",8.08333333333333
+"Virginia","8:04",8.06666666666667
+"Washington","8:08",8.13333333333333
+"West Virginia","7:54",7.9
+"Wisconsin","7:59",7.98333333333333
+"Wyoming","7:59",7.98333333333333
