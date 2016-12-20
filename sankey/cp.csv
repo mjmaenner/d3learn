@@ -1,0 +1,14 @@
+source,target,value
+Health_and_School,CP_ICD,810
+Health_and_School,NoCP_ICD,4493
+Health_only,CP_ICD,2281
+Health_only,NoCP_ICD,51873
+School_only,NoCP_ICD,7765
+NoCP_ICD,Not_abstracted,61566
+NoCP_ICD,Abstracted,2565
+CP_ICD,Not_abstracted,881
+CP_ICD,Abstracted,2210
+Abstracted,CP_Case,1943
+Abstracted,NonCase,2832
+CP_Case,Has_CP_ICD,1690
+CP_Case,No_CP_ICD,253
